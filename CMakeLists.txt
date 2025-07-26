@@ -15,4 +15,7 @@ target_link_libraries(createOctomap octomap)
 add_executable(readOctomap src/readOctomapForCollisionChecking.cpp)
 target_link_libraries(readOctomap fcl octomap)
 
+add_executable(timeConsumeTest src/timeConsumeTest.cpp)
+target_link_libraries(timeConsumeTest octomap)
+
 
